@@ -1,5 +1,5 @@
 # Initialise device config
-$(call inherit-product, device/samsung/zerofltexx/full_zerofltexx.mk)
+$(call inherit-product, device/samsung/zerofltespr/full_zerofltespr.mk)
 
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
@@ -14,5 +14,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Galaxy S6" \
     TARGET_DEVICE="Galaxy S6"
 
-PRODUCT_NAME := cm_zerofltexx
-PRODUCT_DEVICE := zerofltexx
+PRODUCT_NAME := cm_zerofltespr
+PRODUCT_DEVICE := zerofltespr

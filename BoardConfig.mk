@@ -24,13 +24,13 @@
 include device/samsung/zero-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := zerofltexx,zeroflte
+TARGET_OTA_ASSERT_DEVICE := zerofltespr,zeroflte
 
 # Kernel
-TARGET_KERNEL_CONFIG := cm_zerofltexx_defconfig
+TARGET_KERNEL_CONFIG := cm_zerofltespr_defconfig
 
 # Partitions
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3879731200
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3656552448
 
 # Radio
-BOARD_MODEM_TYPE := ss333
+BOARD_MODEM_TYPE := mdm9x35
